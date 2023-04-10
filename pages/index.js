@@ -8,6 +8,15 @@ export default function Home() {
       <Head>
         <title>DoubleEye - Compute Cloud</title>
         <link rel="icon" href="/favicon.ico" />
+        <style>{`
+          body {
+            background-image: url('/erde.png');
+            background-repeat: no-repeat;
+            background-size: 250%;
+            background-position: center center;
+            background-attachment: fixed;
+          }
+      `}</style>
       </Head>
       <main>
         <div className="container">
