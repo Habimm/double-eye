@@ -5,24 +5,35 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Home() {
   return (
     <div className="container">
+    <div className="background">
       <Head>
         <title>DoubleEye - Compute Cloud</title>
         <link rel="icon" href="/favicon.ico" />
         <style>{`
-          body {
-            background-image: url('/erde.png');
-            background-repeat: no-repeat;
-            background-size: 250%;
-            background-position: center center;
-            background-attachment: fixed;
-          }
+        body, html {
+          height: 100%;
+        }
+
+        .background::before {
+          content: "";
+          background-image: url('/erde.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          opacity: 0.4;
+          position: fixed;
+          top: -300px;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+        }
       `}</style>
       </Head>
       <main>
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
-              <img src="/logo.png" alt="DoubleEye Logo" className="img-fluid" style={{ maxWidth: '90%', height: 'auto' }} />
+              <img src="/logo2.png" alt="DoubleEye Logo" className="img-fluid" style={{ maxWidth: '90%', height: 'auto' }} />
               <br />
               <br />
             </div>
@@ -69,6 +80,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+    </div>
     </div>
   );
 }
