@@ -21,8 +21,8 @@ export default function Home() {
           <div className="row">
             <div className="col-12 col-md-10 offset-md-1">
               <p>Entdecken Sie den innovativen Marktplatz für gemeinsam genutzte Rechenleistung!</p>
-              <p>Präsentation: DoubleEye - Die leistungsstarke Plattform für den Zugriff auf GPUs und CPUs von der Community, für die Community.</p>
-              <p>Es funktioniert so: Sie gehen auf eine Seite und scrollen dort durch eine Liste von verfügbaren GPUs und CPUs auf der ganzen Welt. Diese gehören ganz normalen Haushälten oder auch kommerziell betrieben Datencentern. Dann wählen Sie eine gewünschte GPU oder CPU aus und kontaktieren den Betreiber. Sie vereinbaren eine Zeit, wann Sie per AnyDesk auf den Computer mit diesen Ressourcen zugreifen können. Außerdem legen Sie sich auf einen Preis fest. Auf diese Weise können Sie natürlich eine ganze Reihe von GPUs oder CPUs für Ihr Projekt akquirieren.</p>
+              <p><b>Präsentation:</b> DoubleEye - Die leistungsstarke Plattform für den Zugriff auf GPUs und CPUs von der Community, für die Community.</p>
+              <p><b>Es funktioniert so:</b> Sie gehen auf eine Seite und scrollen dort durch eine Liste von verfügbaren GPUs und CPUs auf der ganzen Welt. Diese gehören ganz normalen Haushälten oder auch kommerziell betrieben Datencentern. Dann wählen Sie eine gewünschte GPU oder CPU aus und kontaktieren den Betreiber. Sie vereinbaren eine Zeit, wann Sie per AnyDesk auf den Computer mit diesen Ressourcen zugreifen können. Außerdem legen Sie sich auf einen Preis fest. Auf diese Weise können Sie natürlich eine ganze Reihe von GPUs oder CPUs für Ihr Projekt akquirieren.</p>
               <ul>
                 <li>🌐 Online-Plattform: Keine Installation erforderlich, greifen Sie einfach über Ihren Browser auf die Ressourcen zu.</li>
                 <li>🖥️ GPU- und CPU-Management: Finden und bieten Sie GPUs und CPUs nach Ihren individuellen Anforderungen.</li>
